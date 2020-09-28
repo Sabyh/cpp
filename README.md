@@ -17,5 +17,10 @@ source activate xeus-cling
 jupyter-notebook
 ```
 
-## Note: Don't write the main function
+### Note: Don't write the main function
 `xeus-cling` works like a script language, you just write the code that should be evaluated. So, don't wrap your code in a `main()` function. ([source: stackoverflow](https://stackoverflow.com/questions/62751544/jupyter-notebook-error-for-c-kernelcling))
+
+## Run C++ locally
+```bash
+g++ -std=c++17 main.cpp && ./a.out
+```
