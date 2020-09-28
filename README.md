@@ -17,8 +17,14 @@ source activate xeus-cling
 jupyter-notebook
 ```
 
-### Note: Don't write the main function
+### Notes: xeus-cling quirks 
+#### Don't write the main function
 `xeus-cling` works like a script language, you just write the code that should be evaluated. So, don't wrap your code in a `main()` function. ([source: stackoverflow](https://stackoverflow.com/questions/62751544/jupyter-notebook-error-for-c-kernelcling))
+
+#### Defining a function in a cell has to happen at the top of it
+A function doesn't seem to be allowed to be defined in a cell anywhere else but at the top of it.
+
+That means you can only define one function per cell, and it has to be the first thing that happens in the cell.
 
 ## Run C++ locally
 ```bash
