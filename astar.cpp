@@ -11,12 +11,18 @@ using std::string;
 using std::vector;
 
 // Defined above, can't define it again else it throws an error
-enum class State { kEmpty, kObstacle, kClosed, kPath };
+enum class State { kEmpty, kObstacle, kClosed, kPath, kStart, kGoal };
 
 std::string CellString(const State &state) {
   switch (state) {
   case State::kEmpty:
     return "0 ";
+    break;
+  case State::kStart:
+    return "🚦 ";
+    break;
+  case State::kGoal:
+    return "🏁";
     break;
   case State::kObstacle:
     return "⛰️ ";
@@ -150,6 +156,8 @@ auto Search(std::vector<std::vector<State>> &board, int start[2], int goal[2]) {
     board[x][y] = State::kPath;
 
     if (x == goal[0] && y == goal[1]) {
+      board[start[0]][start[1]] = State::kStart;
+      board[goal[0]][goal[1]] = State::kGoal;
       return board;
     }
     ExpandNeighbors(x, y, g, goal, openlist, board);
