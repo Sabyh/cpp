@@ -1,5 +1,10 @@
 # C++ Cheatsheet
-This repo contains material I've covered when learning & reviewing C++.
+This repo contains material I've covered when learning & reviewing C++. 
+
+## Material Sources
+The two sources for the material are:
+* Online Course: [C++ Nanodegree](https://www.udacity.com/course/c-plus-plus-nanodegree--nd213) on Udacity
+* Book: [A Tour of C++](https://www.amazon.com/Tour-2nd-Depth-Bjarne-Stroustrup/dp/0134997832) by Bjarne Stroustrup
 
 ## C++ in Jupyter Notebooks
 Some of the code is written in Jupyter Notebooks. This is possible using `xeus-cling`. 
