@@ -1,7 +1,7 @@
 # C++ Cheatsheet
 This repo contains material I've covered when learning & reviewing C++. 
 
-## Material Sources
+## Sources
 The two sources for the material are:
 * Online Course: [C++ Nanodegree from Udacity](https://www.udacity.com/course/c-plus-plus-nanodegree--nd213)
 * Book: [A Tour of C++ by Bjarne Stroustrup](https://www.amazon.com/Tour-2nd-Depth-Bjarne-Stroustrup/dp/0134997832)
