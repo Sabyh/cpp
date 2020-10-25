@@ -8,11 +8,6 @@ This repo contains material I've covered when learning & reviewing C++.
 * [A* algorithm - step by step](https://github.com/kkufieta/cpp/blob/master/A*%20algorithm%20-%20step%20by%20step.ipynb)
   * Link to Project Repo: [OpenStreetMap Route Planner using A*](https://github.com/kkufieta/openstreetmap_routeplanner_astar)
 
-## Sources
-The two sources for the material are:
-* Online Course: [C++ Nanodegree from Udacity](https://www.udacity.com/course/c-plus-plus-nanodegree--nd213)
-* Book: [A Tour of C++ by Bjarne Stroustrup](https://www.amazon.com/Tour-2nd-Depth-Bjarne-Stroustrup/dp/0134997832)
-
 ## C++ in Jupyter Notebooks
 Some of the code is written in Jupyter Notebooks. This is possible using `xeus-cling`. 
 
@@ -42,3 +37,8 @@ That means you can only define one function per cell, and it has to be the first
 ```bash
 g++ -std=c++17 main.cpp && ./a.out
 ```
+
+## Sources
+The two sources for the material are:
+* Online Course: [C++ Nanodegree from Udacity](https://www.udacity.com/course/c-plus-plus-nanodegree--nd213)
+* Book: [A Tour of C++ by Bjarne Stroustrup](https://www.amazon.com/Tour-2nd-Depth-Bjarne-Stroustrup/dp/0134997832)
