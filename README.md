@@ -1,6 +1,13 @@
 # C++ Cheatsheet
 This repo contains material I've covered when learning & reviewing C++. 
 
+## Table of Contents
+* [C++ Basics](https://github.com/kkufieta/cpp/blob/master/C%2B%2B%20Basics.ipynb)
+* [Writing Multifile Programs](https://github.com/kkufieta/cpp/blob/master/Writing%20Multifile%20Programs.ipynb)
+* [Building an OpenStreetMap Route Planner](https://github.com/kkufieta/cpp/blob/master/Building%20an%20OpenStreetMap%20Route%20Planner.ipynb)
+* [A* algorithm - step by step](https://github.com/kkufieta/cpp/blob/master/A*%20algorithm%20-%20step%20by%20step.ipynb)
+  * Link to Project Repo: [OpenStreetMap Route Planner using A*](https://github.com/kkufieta/openstreetmap_routeplanner_astar)
+
 ## Sources
 The two sources for the material are:
 * Online Course: [C++ Nanodegree from Udacity](https://www.udacity.com/course/c-plus-plus-nanodegree--nd213)
