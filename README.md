@@ -3,10 +3,10 @@ This repo contains material I've covered when learning & reviewing C++.
 
 ## Table of Contents
 1. Foundations
-    * [C++ Basics](https://github.com/kkufieta/cpp/blob/master/C%2B%2B%20Basics.ipynb)
-    * [Writing Multifile Programs](https://github.com/kkufieta/cpp/blob/master/Writing%20Multifile%20Programs.ipynb)
-    * [Building an OpenStreetMap Route Planner](https://github.com/kkufieta/cpp/blob/master/Building%20an%20OpenStreetMap%20Route%20Planner.ipynb)
-    * [A* algorithm - step by step](https://github.com/kkufieta/cpp/blob/master/A*%20algorithm%20-%20step%20by%20step.ipynb)
+    * [C++ Basics](https://github.com/kkufieta/cpp/blob/master/1_Foundations/01_Cpp_Basics.ipynb)
+    * [A* algorithm - step by step](https://github.com/kkufieta/cpp/blob/master/1_Foundations/02_Astar_Algorithm_step_by_step.ipynb)
+    * [Writing Multifile Programs](https://github.com/kkufieta/cpp/blob/master/1_Foundations/03_Writing_Multifile_Programs.ipynb)
+    * [Building an OpenStreetMap Route Planner](https://github.com/kkufieta/cpp/blob/master/1_Foundations/04_Building_an_OpenStreetMap_Route_Planner.ipynb)
     * Project: [OpenStreetMap Route Planner using A*](https://github.com/kkufieta/openstreetmap_routeplanner_astar)
 2. Object-Oriented Programming
     * Intro to OOP
