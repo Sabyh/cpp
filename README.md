@@ -2,11 +2,32 @@
 This repo contains material I've covered when learning & reviewing C++. 
 
 ## Table of Contents
-* [C++ Basics](https://github.com/kkufieta/cpp/blob/master/C%2B%2B%20Basics.ipynb)
-* [Writing Multifile Programs](https://github.com/kkufieta/cpp/blob/master/Writing%20Multifile%20Programs.ipynb)
-* [Building an OpenStreetMap Route Planner](https://github.com/kkufieta/cpp/blob/master/Building%20an%20OpenStreetMap%20Route%20Planner.ipynb)
-* [A* algorithm - step by step](https://github.com/kkufieta/cpp/blob/master/A*%20algorithm%20-%20step%20by%20step.ipynb)
-  * Link to Project Repo: [OpenStreetMap Route Planner using A*](https://github.com/kkufieta/openstreetmap_routeplanner_astar)
+1. Foundations
+    * [C++ Basics](https://github.com/kkufieta/cpp/blob/master/C%2B%2B%20Basics.ipynb)
+    * [Writing Multifile Programs](https://github.com/kkufieta/cpp/blob/master/Writing%20Multifile%20Programs.ipynb)
+    * [Building an OpenStreetMap Route Planner](https://github.com/kkufieta/cpp/blob/master/Building%20an%20OpenStreetMap%20Route%20Planner.ipynb)
+    * [A* algorithm - step by step](https://github.com/kkufieta/cpp/blob/master/A*%20algorithm%20-%20step%20by%20step.ipynb)
+    * Link to Project Repo: [OpenStreetMap Route Planner using A*](https://github.com/kkufieta/openstreetmap_routeplanner_astar)
+2. Object-Oriented Programming
+    * Intro to OOP
+    * Advanced OOP
+    * Project: System Monitor
+3. Memory Management
+    * Introduction
+    * Overview of Memory Types
+    * Variables and Memory
+    * Dynamic Memory Allocation (The Heap)
+    * Resource Copying Policies
+    * Smart Pointers
+    * Project: Memory Management Chatbot
+4. Concurrency
+    * Introduction & Running Threads
+    * Passing Data between Threads
+    * Mutexes and Locks
+    * Condition Variables and Message Queues
+    * Project: Program a Concurrent Traffic Simulation
+5. Capstone
+
 
 ## C++ in Jupyter Notebooks
 Some of the code is written in Jupyter Notebooks. This is possible using `xeus-cling`. 
